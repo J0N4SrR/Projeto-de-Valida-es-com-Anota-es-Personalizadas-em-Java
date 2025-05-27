@@ -2,7 +2,6 @@ package validacoes;
 
 import anotacoes.NaoNulo;
 import org.classes.Usuario;
-
 import java.lang.reflect.Field;
 
 public class ValidadorNaoNulo {

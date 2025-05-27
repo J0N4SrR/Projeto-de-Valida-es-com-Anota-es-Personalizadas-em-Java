@@ -1,8 +1,9 @@
 # 🧪 Projeto de Validações com Anotações Personalizadas em Java
 
+
 Este é um projeto simples em Java criado para treinar os conceitos de:
 
-- 🏷️ Anotações personalizadas (`@interface`)
+- 🏷️ Anotações(Annotations) personalizadas (`@interface`)
 - 🔍 Reflection API
 - ⚠️ Tratamento de exceções
 
@@ -16,7 +17,8 @@ Este é um projeto simples em Java criado para treinar os conceitos de:
 
 ---
 
-🚀 Como rodar
+## 🚀 Como rodar
+
 Compile os arquivos .java
 
 Execute a classe Main
@@ -25,7 +27,8 @@ Observe as exceções lançadas com base nas anotações declaradas
 
 ---
 
-📚 Conceitos aplicados
+## 📚 Conceitos aplicados
+
 Criação e uso de anotações com parâmetros
 
 Acesso dinâmico a campos via reflection

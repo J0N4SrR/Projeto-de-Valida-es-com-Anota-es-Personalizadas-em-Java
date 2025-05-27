@@ -22,5 +22,15 @@ public class Usuario {
         this.idade = idade;
     }
 
+    public Usuario(String nome, int ddd, int celular, String email, int idade) {
+        this.nome = nome;
+        this.ddd = ddd;
+        this.celular = celular;
+        this.email = email;
+        this.idade = idade;
+    }
 
+    public String getNome() {
+        return nome;
+    }
 }
