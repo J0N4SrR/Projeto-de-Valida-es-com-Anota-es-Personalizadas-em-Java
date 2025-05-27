@@ -23,12 +23,21 @@ public class Main {
 
             for (Usuario u : usuarios) {
 
-                System.out.println(CYAN + "🔍 Validando usuário: " + (u.getNome()) + "..." + RESET);
+                System.out.println(CYAN + "Validando usuário: " + (u.getNome()) + "..." + RESET);
+                Thread.sleep(800);
                 try {
+                    System.out.println("   ➤ Verificando campos obrigatórios...");
+                    Thread.sleep(400);
+                    System.out.println("   ➤ Verificando e-mail...");
+                    Thread.sleep(400);
+                    System.out.println("   ➤ Verificando idade mínima...");
+                    Thread.sleep(400);
                     Validador.validar(u);
                     System.out.println(GREEN + "Usuário válido!\n" + RESET);
+                    Thread.sleep(400);
                 } catch (Exception e) {
                     System.out.println(RED + "Erro de validação: " + e.getMessage() + "\n" + RESET);
+                    Thread.sleep(400);
                 }
 
 
